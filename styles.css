@@ -193,3 +193,19 @@ footer {
         flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    #navbar ul li{
+        margin-left: 2rem;
+    }
+    #welcome-section h1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #welcome-section h2 {
+        margin: inherit;
+    }
+    img {
+        width: 23rem;
+    }
+}
