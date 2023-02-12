@@ -239,10 +239,10 @@ footer {
 
 @media only screen and (max-height: 800px) {
     #projects {
-        height: 270vh;
+        height: 230vh;
     }
     #about {
-        height: 160vh;
+        height: 130vh;
     }
     
 } 
