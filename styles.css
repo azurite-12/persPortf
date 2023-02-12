@@ -194,7 +194,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     #navbar ul li{
         margin-left: 2rem;
     }
@@ -207,5 +207,32 @@ footer {
     }
     img {
         width: 23rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #navbar ul {
+        margin-right: 6vw;
+    }
+    #welcome-section h1 {
+        font-size: 3rem;
+    }
+    #welcome-section h2 {
+        font-size: 1.5rem;
+        margin: auto 3rem;
+    }
+    #projects {
+        height: 170vh;
+    }    
+    img {
+        height: 15rem;
+        width: 20rem; 
+    }
+    #about h1 {
+        font-size: 3rem;
+        margin: auto 2rem;
+    }
+    #about p {
+        font-size: 1.5rem;
     }
 }
