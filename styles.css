@@ -172,6 +172,7 @@ footer {
     align-items:flex-end;
     justify-content: center;
     gap: 0.5rem;
+    border-top: 5px gray solid;
 }
 
 @media only screen and (max-width: 460px) and (max-height: 1000px) {
@@ -202,22 +203,6 @@ footer {
         margin-bottom: 5vh;
     }
 }
-
-/* @media only screen and (max-width: 600px) {
-    #navbar ul li{
-        margin-left: 2rem;
-    }
-    #welcome-section h1 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    #welcome-section h2 {
-        margin: inherit;
-    }
-    img {
-        width: 23rem;
-    }
-} */
 
 @media only screen and (max-width: 380px) and (max-height: 800px){
     #navbar ul {
@@ -251,16 +236,3 @@ footer {
         font-size: 1.5rem;
     }
 }
-
-/* @media only screen and (max-height: 800px) {
-    #projects {
-        height: 100%;
-        padding-bottom: 4rem;
-    }
-    #about {
-        padding-top: 5rem;
-        padding-bottom: 3rem;
-        height: 100%;
-    }
-    
-}  */
