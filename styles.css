@@ -85,9 +85,8 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #27639e;
     text-align: center;
     width: 100vw;
-    height: 108vh;
     padding-top: 10vh;
-    
+    padding-bottom: 10vh;
 }
 #projects > h2 {
     margin: -2rem 0 5rem;
