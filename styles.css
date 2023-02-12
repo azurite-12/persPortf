@@ -236,3 +236,13 @@ footer {
         font-size: 1.5rem;
     }
 }
+
+@media only screen and (max-height: 800px) {
+    #projects {
+        height: 220vh;
+    }
+    #about {
+        height: 120vh;
+    }
+    
+} 
